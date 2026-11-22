@@ -1,0 +1,2384 @@
+[
+  {
+    "site_id": "26.5_71.3",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 26.5,
+    "lon": 71.3,
+    "suitability_score": 91.7,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 996.79,
+    "variability_cv": 0.179,
+    "seasonal_stability": 0.616,
+    "peak_monthly_yield_kwh": 1213.06,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 746.91,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.587,
+    "forecast_interval_80": [
+      0.555,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "26.5_70.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 26.5,
+    "lon": 70.5,
+    "suitability_score": 91.6,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 1005.83,
+    "variability_cv": 0.175,
+    "seasonal_stability": 0.61,
+    "peak_monthly_yield_kwh": 1220.06,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 744.82,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.599,
+    "forecast_interval_80": [
+      0.564,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "26.5_72.9",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 26.5,
+    "lon": 72.9,
+    "suitability_score": 89.9,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 1000.61,
+    "variability_cv": 0.187,
+    "seasonal_stability": 0.593,
+    "peak_monthly_yield_kwh": 1221.64,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 724.42,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.595,
+    "forecast_interval_80": [
+      0.595,
+      0.673
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "26.5_72.1",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 26.5,
+    "lon": 72.1,
+    "suitability_score": 89.8,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 999.05,
+    "variability_cv": 0.187,
+    "seasonal_stability": 0.593,
+    "peak_monthly_yield_kwh": 1221.86,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 724.42,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.595,
+    "forecast_interval_80": [
+      0.595,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "25.7_70.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 25.7,
+    "lon": 70.5,
+    "suitability_score": 87.5,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 986.67,
+    "variability_cv": 0.188,
+    "seasonal_stability": 0.629,
+    "peak_monthly_yield_kwh": 1223.56,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 769.76,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.596,
+    "forecast_interval_80": [
+      0.596,
+      0.672
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "25.7_71.3",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 25.7,
+    "lon": 71.3,
+    "suitability_score": 85.7,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 981.35,
+    "variability_cv": 0.187,
+    "seasonal_stability": 0.636,
+    "peak_monthly_yield_kwh": 1215.52,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 772.99,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.592,
+    "forecast_interval_80": [
+      0.592,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "25.7_72.9",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 25.7,
+    "lon": 72.9,
+    "suitability_score": 82.8,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 985.04,
+    "variability_cv": 0.2,
+    "seasonal_stability": 0.606,
+    "peak_monthly_yield_kwh": 1231.86,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 746.94,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.605,
+    "forecast_interval_80": [
+      0.6,
+      0.672
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "25.7_72.1",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 25.7,
+    "lon": 72.1,
+    "suitability_score": 81.2,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 981.95,
+    "variability_cv": 0.201,
+    "seasonal_stability": 0.607,
+    "peak_monthly_yield_kwh": 1229.94,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 746.94,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.605,
+    "forecast_interval_80": [
+      0.605,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "9.9252_78.1198",
+    "site_name": "Madurai",
+    "state": "Tamil Nadu",
+    "sample_type": "state_anchor",
+    "lat": 9.9252,
+    "lon": 78.1198,
+    "suitability_score": 80.2,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 966.08,
+    "variability_cv": 0.18,
+    "seasonal_stability": 0.656,
+    "peak_monthly_yield_kwh": 1108.16,
+    "peak_yield_month": "March",
+    "lowest_monthly_yield_kwh": 726.68,
+    "lowest_yield_month": "October",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.336,
+    "forecast_interval_80": [
+      0.264,
+      0.606
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "14.2251_76.398",
+    "site_name": "Chitradurga",
+    "state": "Karnataka",
+    "sample_type": "state_anchor",
+    "lat": 14.2251,
+    "lon": 76.398,
+    "suitability_score": 79.0,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 955.98,
+    "variability_cv": 0.179,
+    "seasonal_stability": 0.71,
+    "peak_monthly_yield_kwh": 1103.87,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 783.88,
+    "lowest_yield_month": "July",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.602,
+    "forecast_interval_80": [
+      0.436,
+      0.658
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "26.5_73.7",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 26.5,
+    "lon": 73.7,
+    "suitability_score": 74.5,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 968.44,
+    "variability_cv": 0.197,
+    "seasonal_stability": 0.598,
+    "peak_monthly_yield_kwh": 1194.91,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 714.25,
+    "lowest_yield_month": "January",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.587,
+    "forecast_interval_80": [
+      0.583,
+      0.673
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "14.4673_78.8242",
+    "site_name": "Kadapa",
+    "state": "Andhra Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 14.4673,
+    "lon": 78.8242,
+    "suitability_score": 71.7,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 940.86,
+    "variability_cv": 0.181,
+    "seasonal_stability": 0.713,
+    "peak_monthly_yield_kwh": 1103.36,
+    "peak_yield_month": "March",
+    "lowest_monthly_yield_kwh": 786.51,
+    "lowest_yield_month": "July",
+    "top_k_freq": 1.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.559,
+    "forecast_interval_80": [
+      0.405,
+      0.651
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "15.1394_76.9214",
+    "site_name": "Ballari",
+    "state": "Karnataka",
+    "sample_type": "state_anchor",
+    "lat": 15.1394,
+    "lon": 76.9214,
+    "suitability_score": 70.5,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 938.4,
+    "variability_cv": 0.161,
+    "seasonal_stability": 0.721,
+    "peak_monthly_yield_kwh": 1057.34,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 762.76,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.98,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.592,
+    "forecast_interval_80": [
+      0.532,
+      0.672
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "16.8302_75.71",
+    "site_name": "Vijayapura",
+    "state": "Karnataka",
+    "sample_type": "state_anchor",
+    "lat": 16.8302,
+    "lon": 75.71,
+    "suitability_score": 66.5,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 931.28,
+    "variability_cv": 0.185,
+    "seasonal_stability": 0.692,
+    "peak_monthly_yield_kwh": 1074.47,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 743.65,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.81,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.598,
+    "forecast_interval_80": [
+      0.489,
+      0.666
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "8.7139_77.7567",
+    "site_name": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "sample_type": "state_anchor",
+    "lat": 8.7139,
+    "lon": 77.7567,
+    "suitability_score": 66.2,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 932.9,
+    "variability_cv": 0.181,
+    "seasonal_stability": 0.679,
+    "peak_monthly_yield_kwh": 1081.29,
+    "peak_yield_month": "March",
+    "lowest_monthly_yield_kwh": 734.01,
+    "lowest_yield_month": "October",
+    "top_k_freq": 0.84,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.428,
+    "forecast_interval_80": [
+      0.294,
+      0.57
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "14.4426_79.9865",
+    "site_name": "Nellore",
+    "state": "Andhra Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 14.4426,
+    "lon": 79.9865,
+    "suitability_score": 63.0,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 929.1,
+    "variability_cv": 0.201,
+    "seasonal_stability": 0.693,
+    "peak_monthly_yield_kwh": 1101.01,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 763.39,
+    "lowest_yield_month": "January",
+    "top_k_freq": 0.54,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.529,
+    "forecast_interval_80": [
+      0.285,
+      0.607
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.1_71.3",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.1,
+    "lon": 71.3,
+    "suitability_score": 62.6,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 956.03,
+    "variability_cv": 0.224,
+    "seasonal_stability": 0.579,
+    "peak_monthly_yield_kwh": 1237.89,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 717.05,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.9,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.607,
+    "forecast_interval_80": [
+      0.607,
+      0.671
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.9_71.3",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.9,
+    "lon": 71.3,
+    "suitability_score": 61.6,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 955.04,
+    "variability_cv": 0.225,
+    "seasonal_stability": 0.576,
+    "peak_monthly_yield_kwh": 1237.7,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 712.92,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.66,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.613,
+    "forecast_interval_80": [
+      0.613,
+      0.677
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "25.7_73.7",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 25.7,
+    "lon": 73.7,
+    "suitability_score": 61.1,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 948.0,
+    "variability_cv": 0.218,
+    "seasonal_stability": 0.597,
+    "peak_monthly_yield_kwh": 1189.11,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 710.09,
+    "lowest_yield_month": "January",
+    "top_k_freq": 0.77,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.514,
+    "forecast_interval_80": [
+      0.514,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.1_70.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.1,
+    "lon": 70.5,
+    "suitability_score": 59.5,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 944.81,
+    "variability_cv": 0.222,
+    "seasonal_stability": 0.604,
+    "peak_monthly_yield_kwh": 1226.87,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 740.5,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.19,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.574,
+    "forecast_interval_80": [
+      0.574,
+      0.675
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.9_70.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.9,
+    "lon": 70.5,
+    "suitability_score": 59.1,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 944.72,
+    "variability_cv": 0.223,
+    "seasonal_stability": 0.601,
+    "peak_monthly_yield_kwh": 1227.15,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 737.87,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.15,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.579,
+    "forecast_interval_80": [
+      0.579,
+      0.676
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "26.5_74.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 26.5,
+    "lon": 74.5,
+    "suitability_score": 55.5,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 944.02,
+    "variability_cv": 0.22,
+    "seasonal_stability": 0.557,
+    "peak_monthly_yield_kwh": 1192.94,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 664.33,
+    "lowest_yield_month": "January",
+    "top_k_freq": 0.01,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.569,
+    "forecast_interval_80": [
+      0.569,
+      0.678
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "17.6599_75.9064",
+    "site_name": "Solapur",
+    "state": "Maharashtra",
+    "sample_type": "state_anchor",
+    "lat": 17.6599,
+    "lon": 75.9064,
+    "suitability_score": 53.3,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 918.7,
+    "variability_cv": 0.209,
+    "seasonal_stability": 0.654,
+    "peak_monthly_yield_kwh": 1094.31,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 715.21,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.1,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.599,
+    "forecast_interval_80": [
+      0.521,
+      0.677
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "23.3_70.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 23.3,
+    "lon": 70.5,
+    "suitability_score": 52.6,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 929.93,
+    "variability_cv": 0.219,
+    "seasonal_stability": 0.6,
+    "peak_monthly_yield_kwh": 1177.38,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 705.86,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.61,
+    "forecast_interval_80": [
+      0.608,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "23.3_71.3",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 23.3,
+    "lon": 71.3,
+    "suitability_score": 52.3,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 943.12,
+    "variability_cv": 0.236,
+    "seasonal_stability": 0.555,
+    "peak_monthly_yield_kwh": 1227.82,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 681.18,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.611,
+    "forecast_interval_80": [
+      0.608,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "25.7_74.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 25.7,
+    "lon": 74.5,
+    "suitability_score": 49.4,
+    "regime_label": "High & Stable",
+    "mean_daily_yield_kwh": 934.15,
+    "variability_cv": 0.233,
+    "seasonal_stability": 0.566,
+    "peak_monthly_yield_kwh": 1187.37,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 672.12,
+    "lowest_yield_month": "January",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.44,
+    "forecast_interval_80": [
+      0.44,
+      0.676
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "11.0168_76.9558",
+    "site_name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "sample_type": "state_anchor",
+    "lat": 11.0168,
+    "lon": 76.9558,
+    "suitability_score": 42.4,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 888.38,
+    "variability_cv": 0.204,
+    "seasonal_stability": 0.689,
+    "peak_monthly_yield_kwh": 1059.52,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 729.82,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.04,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.538,
+    "forecast_interval_80": [
+      0.331,
+      0.588
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "15.8281_78.0373",
+    "site_name": "Kurnool",
+    "state": "Andhra Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 15.8281,
+    "lon": 78.0373,
+    "suitability_score": 41.7,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 889.7,
+    "variability_cv": 0.199,
+    "seasonal_stability": 0.662,
+    "peak_monthly_yield_kwh": 1043.48,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 691.19,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.558,
+    "forecast_interval_80": [
+      0.439,
+      0.657
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "17.385_78.4867",
+    "site_name": "Hyderabad",
+    "state": "Telangana",
+    "sample_type": "state_anchor",
+    "lat": 17.385,
+    "lon": 78.4867,
+    "suitability_score": 41.4,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 895.53,
+    "variability_cv": 0.216,
+    "seasonal_stability": 0.658,
+    "peak_monthly_yield_kwh": 1052.22,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 692.44,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.588,
+    "forecast_interval_80": [
+      0.482,
+      0.669
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.1_72.9",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.1,
+    "lon": 72.9,
+    "suitability_score": 41.1,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 926.36,
+    "variability_cv": 0.245,
+    "seasonal_stability": 0.534,
+    "peak_monthly_yield_kwh": 1216.14,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 650.0,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.579,
+    "forecast_interval_80": [
+      0.552,
+      0.669
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.9_72.9",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.9,
+    "lon": 72.9,
+    "suitability_score": 40.7,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 926.76,
+    "variability_cv": 0.246,
+    "seasonal_stability": 0.531,
+    "peak_monthly_yield_kwh": 1219.66,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 647.67,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.584,
+    "forecast_interval_80": [
+      0.584,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.1_72.1",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.1,
+    "lon": 72.1,
+    "suitability_score": 38.6,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 921.98,
+    "variability_cv": 0.245,
+    "seasonal_stability": 0.532,
+    "peak_monthly_yield_kwh": 1212.38,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 644.75,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.579,
+    "forecast_interval_80": [
+      0.579,
+      0.672
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "19.8762_75.3433",
+    "site_name": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "sample_type": "state_anchor",
+    "lat": 19.8762,
+    "lon": 75.3433,
+    "suitability_score": 38.0,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 914.6,
+    "variability_cv": 0.253,
+    "seasonal_stability": 0.582,
+    "peak_monthly_yield_kwh": 1145.02,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 666.14,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.583,
+    "forecast_interval_80": [
+      0.583,
+      0.67
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.9_72.1",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.9,
+    "lon": 72.1,
+    "suitability_score": 37.5,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 920.77,
+    "variability_cv": 0.247,
+    "seasonal_stability": 0.528,
+    "peak_monthly_yield_kwh": 1212.35,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 640.6,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.584,
+    "forecast_interval_80": [
+      0.584,
+      0.676
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "18.6725_78.0941",
+    "site_name": "Nizamabad",
+    "state": "Telangana",
+    "sample_type": "state_anchor",
+    "lat": 18.6725,
+    "lon": 78.0941,
+    "suitability_score": 37.3,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 895.41,
+    "variability_cv": 0.229,
+    "seasonal_stability": 0.637,
+    "peak_monthly_yield_kwh": 1067.61,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 679.99,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.627,
+    "forecast_interval_80": [
+      0.591,
+      0.688
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.9_73.7",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.9,
+    "lon": 73.7,
+    "suitability_score": 35.3,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 932.27,
+    "variability_cv": 0.271,
+    "seasonal_stability": 0.485,
+    "peak_monthly_yield_kwh": 1258.7,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 611.0,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.529,
+    "forecast_interval_80": [
+      0.529,
+      0.682
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.1_73.7",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.1,
+    "lon": 73.7,
+    "suitability_score": 34.3,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 928.79,
+    "variability_cv": 0.269,
+    "seasonal_stability": 0.489,
+    "peak_monthly_yield_kwh": 1249.69,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 610.88,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.524,
+    "forecast_interval_80": [
+      0.524,
+      0.67
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "22.5_70.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 22.5,
+    "lon": 70.5,
+    "suitability_score": 33.8,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 925.34,
+    "variability_cv": 0.263,
+    "seasonal_stability": 0.49,
+    "peak_monthly_yield_kwh": 1234.66,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 605.05,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.612,
+    "forecast_interval_80": [
+      0.589,
+      0.669
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "23.3_72.9",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 23.3,
+    "lon": 72.9,
+    "suitability_score": 33.1,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 920.56,
+    "variability_cv": 0.262,
+    "seasonal_stability": 0.507,
+    "peak_monthly_yield_kwh": 1216.29,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 616.57,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.61,
+    "forecast_interval_80": [
+      0.562,
+      0.672
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "22.5_71.3",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 22.5,
+    "lon": 71.3,
+    "suitability_score": 32.7,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 924.61,
+    "variability_cv": 0.273,
+    "seasonal_stability": 0.501,
+    "peak_monthly_yield_kwh": 1240.27,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 621.66,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.618,
+    "forecast_interval_80": [
+      0.607,
+      0.68
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "23.3_72.1",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 23.3,
+    "lon": 72.1,
+    "suitability_score": 31.6,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 918.5,
+    "variability_cv": 0.263,
+    "seasonal_stability": 0.504,
+    "peak_monthly_yield_kwh": 1216.77,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 613.17,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.61,
+    "forecast_interval_80": [
+      0.6,
+      0.671
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "22.5_72.9",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 22.5,
+    "lon": 72.9,
+    "suitability_score": 31.5,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 919.13,
+    "variability_cv": 0.267,
+    "seasonal_stability": 0.507,
+    "peak_monthly_yield_kwh": 1217.54,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 617.55,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.602,
+    "forecast_interval_80": [
+      0.6,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "22.5_72.1",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 22.5,
+    "lon": 72.1,
+    "suitability_score": 30.8,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 918.09,
+    "variability_cv": 0.268,
+    "seasonal_stability": 0.506,
+    "peak_monthly_yield_kwh": 1218.04,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 616.81,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.602,
+    "forecast_interval_80": [
+      0.602,
+      0.676
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.9_74.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.9,
+    "lon": 74.5,
+    "suitability_score": 29.8,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 910.65,
+    "variability_cv": 0.266,
+    "seasonal_stability": 0.533,
+    "peak_monthly_yield_kwh": 1205.99,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 643.06,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.552,
+    "forecast_interval_80": [
+      0.552,
+      0.677
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "24.1_74.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 24.1,
+    "lon": 74.5,
+    "suitability_score": 29.7,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 909.54,
+    "variability_cv": 0.264,
+    "seasonal_stability": 0.535,
+    "peak_monthly_yield_kwh": 1202.0,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 643.66,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.547,
+    "forecast_interval_80": [
+      0.534,
+      0.675
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "22.5_73.7",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 22.5,
+    "lon": 73.7,
+    "suitability_score": 29.1,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 916.06,
+    "variability_cv": 0.275,
+    "seasonal_stability": 0.513,
+    "peak_monthly_yield_kwh": 1228.07,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 629.5,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.576,
+    "forecast_interval_80": [
+      0.576,
+      0.669
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "17.9689_79.5941",
+    "site_name": "Warangal",
+    "state": "Telangana",
+    "sample_type": "state_anchor",
+    "lat": 17.9689,
+    "lon": 79.5941,
+    "suitability_score": 28.0,
+    "regime_label": "Moderate",
+    "mean_daily_yield_kwh": 880.25,
+    "variability_cv": 0.234,
+    "seasonal_stability": 0.624,
+    "peak_monthly_yield_kwh": 1049.89,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 655.31,
+    "lowest_yield_month": "July",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.576,
+    "forecast_interval_80": [
+      0.487,
+      0.668
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "23.3_73.7",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 23.3,
+    "lon": 73.7,
+    "suitability_score": 27.3,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 920.08,
+    "variability_cv": 0.28,
+    "seasonal_stability": 0.477,
+    "peak_monthly_yield_kwh": 1230.59,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 587.51,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.608,
+    "forecast_interval_80": [
+      0.589,
+      0.673
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "23.3_74.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 23.3,
+    "lon": 74.5,
+    "suitability_score": 16.7,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 903.09,
+    "variability_cv": 0.292,
+    "seasonal_stability": 0.46,
+    "peak_monthly_yield_kwh": 1226.49,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 563.86,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.527,
+    "forecast_interval_80": [
+      0.527,
+      0.67
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "22.5_74.5",
+    "site_name": null,
+    "state": null,
+    "sample_type": "grid_sample",
+    "lat": 22.5,
+    "lon": 74.5,
+    "suitability_score": 13.6,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 896.62,
+    "variability_cv": 0.293,
+    "seasonal_stability": 0.473,
+    "peak_monthly_yield_kwh": 1214.17,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 574.06,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.512,
+    "forecast_interval_80": [
+      0.512,
+      0.67
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "22.7196_75.8577",
+    "site_name": "Indore",
+    "state": "Madhya Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 22.7196,
+    "lon": 75.8577,
+    "suitability_score": 7.9,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 885.28,
+    "variability_cv": 0.293,
+    "seasonal_stability": 0.457,
+    "peak_monthly_yield_kwh": 1186.39,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 542.45,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.493,
+    "forecast_interval_80": [
+      0.493,
+      0.653
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "26.2183_78.1828",
+    "site_name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 26.2183,
+    "lon": 78.1828,
+    "suitability_score": 5.3,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 858.74,
+    "variability_cv": 0.308,
+    "seasonal_stability": 0.475,
+    "peak_monthly_yield_kwh": 1120.84,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 531.89,
+    "lowest_yield_month": "January",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.584,
+    "forecast_interval_80": [
+      0.519,
+      0.667
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "21.1458_79.0882",
+    "site_name": "Nagpur",
+    "state": "Maharashtra",
+    "sample_type": "state_anchor",
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "suitability_score": 5.0,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 844.34,
+    "variability_cv": 0.317,
+    "seasonal_stability": 0.449,
+    "peak_monthly_yield_kwh": 1091.54,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 490.33,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.612,
+    "forecast_interval_80": [
+      0.572,
+      0.668
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "23.2599_77.4126",
+    "site_name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 23.2599,
+    "lon": 77.4126,
+    "suitability_score": 5.0,
+    "regime_label": "Low Yield",
+    "mean_daily_yield_kwh": 859.34,
+    "variability_cv": 0.329,
+    "seasonal_stability": 0.365,
+    "peak_monthly_yield_kwh": 1172.07,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 427.48,
+    "lowest_yield_month": "August",
+    "top_k_freq": 0.0,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.532,
+    "forecast_interval_80": [
+      0.532,
+      0.67
+    ],
+    "data_sources": {
+      "weather_irradiance": "real (NASA POWER)",
+      "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
+    }
+  },
+  {
+    "site_id": "27.0844_93.6053",
+    "site_name": "Itanagar",
+    "state": "Arunachal Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 27.0844,
+    "lon": 93.6053,
+    "suitability_score": 15.2,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 614.8,
+    "variability_cv": 0.352,
+    "seasonal_stability": 0.594,
+    "peak_monthly_yield_kwh": 757.35,
+    "peak_yield_month": "July",
+    "lowest_monthly_yield_kwh": 449.87,
+    "lowest_yield_month": "March",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.108,
+    "forecast_interval_80": [
+      0.108,
+      0.69
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "26.1445_91.7362",
+    "site_name": "Guwahati",
+    "state": "Assam",
+    "sample_type": "state_anchor",
+    "lat": 26.1445,
+    "lon": 91.7362,
+    "suitability_score": 29.3,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 725.99,
+    "variability_cv": 0.261,
+    "seasonal_stability": 0.763,
+    "peak_monthly_yield_kwh": 817.95,
+    "peak_yield_month": "August",
+    "lowest_monthly_yield_kwh": 624.21,
+    "lowest_yield_month": "March",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.289,
+    "forecast_interval_80": [
+      0.289,
+      0.679
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "25.5941_85.1376",
+    "site_name": "Patna",
+    "state": "Bihar",
+    "sample_type": "state_anchor",
+    "lat": 25.5941,
+    "lon": 85.1376,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 737.62,
+    "variability_cv": 0.301,
+    "seasonal_stability": 0.455,
+    "peak_monthly_yield_kwh": 957.57,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 435.64,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.548,
+    "forecast_interval_80": [
+      0.548,
+      0.671
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "21.2514_81.6296",
+    "site_name": "Raipur",
+    "state": "Chhattisgarh",
+    "sample_type": "state_anchor",
+    "lat": 21.2514,
+    "lon": 81.6296,
+    "suitability_score": 7.2,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 819.03,
+    "variability_cv": 0.289,
+    "seasonal_stability": 0.491,
+    "peak_monthly_yield_kwh": 1076.83,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 528.74,
+    "lowest_yield_month": "August",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.599,
+    "forecast_interval_80": [
+      0.571,
+      0.677
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "15.4909_73.8278",
+    "site_name": "Panaji",
+    "state": "Goa",
+    "sample_type": "state_anchor",
+    "lat": 15.4909,
+    "lon": 73.8278,
+    "suitability_score": 47.4,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 900.93,
+    "variability_cv": 0.196,
+    "seasonal_stability": 0.66,
+    "peak_monthly_yield_kwh": 1108.59,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 731.36,
+    "lowest_yield_month": "July",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.564,
+    "forecast_interval_80": [
+      0.554,
+      0.673
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "23.0225_72.5714",
+    "site_name": "Ahmedabad",
+    "state": "Gujarat",
+    "sample_type": "state_anchor",
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "suitability_score": 14.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 875.49,
+    "variability_cv": 0.256,
+    "seasonal_stability": 0.506,
+    "peak_monthly_yield_kwh": 1214.39,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 614.91,
+    "lowest_yield_month": "August",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.572,
+    "forecast_interval_80": [
+      0.572,
+      0.69
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "29.1492_75.7217",
+    "site_name": "Hisar",
+    "state": "Haryana",
+    "sample_type": "state_anchor",
+    "lat": 29.1492,
+    "lon": 75.7217,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 795.12,
+    "variability_cv": 0.299,
+    "seasonal_stability": 0.42,
+    "peak_monthly_yield_kwh": 1095.92,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 459.75,
+    "lowest_yield_month": "January",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.527,
+    "forecast_interval_80": [
+      0.443,
+      0.669
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "31.1048_77.1734",
+    "site_name": "Shimla",
+    "state": "Himachal Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 31.1048,
+    "lon": 77.1734,
+    "suitability_score": 9.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 756.79,
+    "variability_cv": 0.322,
+    "seasonal_stability": 0.519,
+    "peak_monthly_yield_kwh": 1024.56,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 531.45,
+    "lowest_yield_month": "January",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.596,
+    "forecast_interval_80": [
+      0.513,
+      0.678
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "23.3441_85.3096",
+    "site_name": "Ranchi",
+    "state": "Jharkhand",
+    "sample_type": "state_anchor",
+    "lat": 23.3441,
+    "lon": 85.3096,
+    "suitability_score": 16.3,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 747.96,
+    "variability_cv": 0.274,
+    "seasonal_stability": 0.569,
+    "peak_monthly_yield_kwh": 1009.91,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 574.71,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.551,
+    "forecast_interval_80": [
+      0.549,
+      0.677
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "9.9312_76.2673",
+    "site_name": "Kochi",
+    "state": "Kerala",
+    "sample_type": "state_anchor",
+    "lat": 9.9312,
+    "lon": 76.2673,
+    "suitability_score": 30.4,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 884.12,
+    "variability_cv": 0.235,
+    "seasonal_stability": 0.632,
+    "peak_monthly_yield_kwh": 1142.04,
+    "peak_yield_month": "March",
+    "lowest_monthly_yield_kwh": 721.31,
+    "lowest_yield_month": "June",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.562,
+    "forecast_interval_80": [
+      0.536,
+      0.661
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "24.817_93.9368",
+    "site_name": "Imphal",
+    "state": "Manipur",
+    "sample_type": "state_anchor",
+    "lat": 24.817,
+    "lon": 93.9368,
+    "suitability_score": 36.5,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 787.62,
+    "variability_cv": 0.218,
+    "seasonal_stability": 0.787,
+    "peak_monthly_yield_kwh": 897.33,
+    "peak_yield_month": "February",
+    "lowest_monthly_yield_kwh": 705.95,
+    "lowest_yield_month": "June",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.625,
+    "forecast_interval_80": [
+      0.573,
+      0.667
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "25.5788_91.8933",
+    "site_name": "Shillong",
+    "state": "Meghalaya",
+    "sample_type": "state_anchor",
+    "lat": 25.5788,
+    "lon": 91.8933,
+    "suitability_score": 30.7,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 702.91,
+    "variability_cv": 0.253,
+    "seasonal_stability": 0.804,
+    "peak_monthly_yield_kwh": 795.85,
+    "peak_yield_month": "February",
+    "lowest_monthly_yield_kwh": 639.56,
+    "lowest_yield_month": "June",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.463,
+    "forecast_interval_80": [
+      0.463,
+      0.655
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "23.7271_92.7176",
+    "site_name": "Aizawl",
+    "state": "Mizoram",
+    "sample_type": "state_anchor",
+    "lat": 23.7271,
+    "lon": 92.7176,
+    "suitability_score": 36.5,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 792.46,
+    "variability_cv": 0.218,
+    "seasonal_stability": 0.788,
+    "peak_monthly_yield_kwh": 894.62,
+    "peak_yield_month": "February",
+    "lowest_monthly_yield_kwh": 704.75,
+    "lowest_yield_month": "July",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.632,
+    "forecast_interval_80": [
+      0.484,
+      0.662
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "25.6751_94.1086",
+    "site_name": "Kohima",
+    "state": "Nagaland",
+    "sample_type": "state_anchor",
+    "lat": 25.6751,
+    "lon": 94.1086,
+    "suitability_score": 35.2,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 738.97,
+    "variability_cv": 0.226,
+    "seasonal_stability": 0.838,
+    "peak_monthly_yield_kwh": 829.08,
+    "peak_yield_month": "February",
+    "lowest_monthly_yield_kwh": 694.94,
+    "lowest_yield_month": "November",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.572,
+    "forecast_interval_80": [
+      0.551,
+      0.662
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "20.2961_85.8245",
+    "site_name": "Bhubaneswar",
+    "state": "Odisha",
+    "sample_type": "state_anchor",
+    "lat": 20.2961,
+    "lon": 85.8245,
+    "suitability_score": 9.9,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 758.8,
+    "variability_cv": 0.289,
+    "seasonal_stability": 0.522,
+    "peak_monthly_yield_kwh": 1034.88,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 540.56,
+    "lowest_yield_month": "July",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.592,
+    "forecast_interval_80": [
+      0.486,
+      0.661
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "30.901_75.8573",
+    "site_name": "Ludhiana",
+    "state": "Punjab",
+    "sample_type": "state_anchor",
+    "lat": 30.901,
+    "lon": 75.8573,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 811.4,
+    "variability_cv": 0.296,
+    "seasonal_stability": 0.42,
+    "peak_monthly_yield_kwh": 1106.52,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 464.62,
+    "lowest_yield_month": "January",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.559,
+    "forecast_interval_80": [
+      0.494,
+      0.68
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "27.3389_88.6065",
+    "site_name": "Gangtok",
+    "state": "Sikkim",
+    "sample_type": "state_anchor",
+    "lat": 27.3389,
+    "lon": 88.6065,
+    "suitability_score": 31.5,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 637.14,
+    "variability_cv": 0.248,
+    "seasonal_stability": 0.788,
+    "peak_monthly_yield_kwh": 696.23,
+    "peak_yield_month": "June",
+    "lowest_monthly_yield_kwh": 548.93,
+    "lowest_yield_month": "September",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.27,
+    "forecast_interval_80": [
+      0.27,
+      0.668
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "23.8315_91.2868",
+    "site_name": "Agartala",
+    "state": "Tripura",
+    "sample_type": "state_anchor",
+    "lat": 23.8315,
+    "lon": 91.2868,
+    "suitability_score": 35.2,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 786.73,
+    "variability_cv": 0.226,
+    "seasonal_stability": 0.77,
+    "peak_monthly_yield_kwh": 889.33,
+    "peak_yield_month": "February",
+    "lowest_monthly_yield_kwh": 684.98,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.579,
+    "forecast_interval_80": [
+      0.503,
+      0.671
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "26.8467_80.9462",
+    "site_name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "sample_type": "state_anchor",
+    "lat": 26.8467,
+    "lon": 80.9462,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 757.3,
+    "variability_cv": 0.356,
+    "seasonal_stability": 0.401,
+    "peak_monthly_yield_kwh": 1092.86,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 438.0,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.554,
+    "forecast_interval_80": [
+      0.554,
+      0.675
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "30.3165_78.0322",
+    "site_name": "Dehradun",
+    "state": "Uttarakhand",
+    "sample_type": "state_anchor",
+    "lat": 30.3165,
+    "lon": 78.0322,
+    "suitability_score": 13.1,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 794.67,
+    "variability_cv": 0.318,
+    "seasonal_stability": 0.569,
+    "peak_monthly_yield_kwh": 1093.88,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 622.06,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.635,
+    "forecast_interval_80": [
+      0.55,
+      0.669
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "22.5726_88.3639",
+    "site_name": "Kolkata",
+    "state": "West Bengal",
+    "sample_type": "state_anchor",
+    "lat": 22.5726,
+    "lon": 88.3639,
+    "suitability_score": 19.7,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 721.38,
+    "variability_cv": 0.269,
+    "seasonal_stability": 0.601,
+    "peak_monthly_yield_kwh": 943.27,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 566.8,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.527,
+    "forecast_interval_80": [
+      0.418,
+      0.653
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "11.6234_92.7265",
+    "site_name": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "sample_type": "state_anchor",
+    "lat": 11.6234,
+    "lon": 92.7265,
+    "suitability_score": 18.9,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 860.68,
+    "variability_cv": 0.277,
+    "seasonal_stability": 0.606,
+    "peak_monthly_yield_kwh": 1145.42,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 693.86,
+    "lowest_yield_month": "June",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.56,
+    "forecast_interval_80": [
+      0.336,
+      0.632
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "30.7333_76.7794",
+    "site_name": "Chandigarh",
+    "state": "Chandigarh",
+    "sample_type": "state_anchor",
+    "lat": 30.7333,
+    "lon": 76.7794,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 832.85,
+    "variability_cv": 0.316,
+    "seasonal_stability": 0.427,
+    "peak_monthly_yield_kwh": 1153.27,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 491.96,
+    "lowest_yield_month": "January",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.577,
+    "forecast_interval_80": [
+      0.517,
+      0.679
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "20.3974_72.8328",
+    "site_name": "Daman",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "sample_type": "state_anchor",
+    "lat": 20.3974,
+    "lon": 72.8328,
+    "suitability_score": 10.8,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 857.8,
+    "variability_cv": 0.268,
+    "seasonal_stability": 0.49,
+    "peak_monthly_yield_kwh": 1139.27,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 558.71,
+    "lowest_yield_month": "July",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.553,
+    "forecast_interval_80": [
+      0.553,
+      0.69
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "28.6139_77.209",
+    "site_name": "New Delhi",
+    "state": "Delhi",
+    "sample_type": "state_anchor",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 769.61,
+    "variability_cv": 0.339,
+    "seasonal_stability": 0.42,
+    "peak_monthly_yield_kwh": 1130.76,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 475.2,
+    "lowest_yield_month": "January",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.544,
+    "forecast_interval_80": [
+      0.492,
+      0.673
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "34.0837_74.7973",
+    "site_name": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "sample_type": "state_anchor",
+    "lat": 34.0837,
+    "lon": 74.7973,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 751.44,
+    "variability_cv": 0.399,
+    "seasonal_stability": 0.405,
+    "peak_monthly_yield_kwh": 1043.55,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 423.12,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.564,
+    "forecast_interval_80": [
+      0.473,
+      0.665
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "34.1526_77.5771",
+    "site_name": "Leh",
+    "state": "Ladakh",
+    "sample_type": "state_anchor",
+    "lat": 34.1526,
+    "lon": 77.5771,
+    "suitability_score": 5.0,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 856.52,
+    "variability_cv": 0.311,
+    "seasonal_stability": 0.367,
+    "peak_monthly_yield_kwh": 1140.67,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 418.59,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.694,
+    "forecast_interval_80": [
+      0.512,
+      0.694
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "10.5667_72.642",
+    "site_name": "Kavaratti",
+    "state": "Lakshadweep",
+    "sample_type": "state_anchor",
+    "lat": 10.5667,
+    "lon": 72.642,
+    "suitability_score": 50.8,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 917.85,
+    "variability_cv": 0.235,
+    "seasonal_stability": 0.682,
+    "peak_monthly_yield_kwh": 1118.2,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 762.78,
+    "lowest_yield_month": "June",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.579,
+    "forecast_interval_80": [
+      0.546,
+      0.674
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "11.9416_79.8083",
+    "site_name": "Puducherry",
+    "state": "Puducherry",
+    "sample_type": "state_anchor",
+    "lat": 11.9416,
+    "lon": 79.8083,
+    "suitability_score": 18.9,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 874.45,
+    "variability_cv": 0.269,
+    "seasonal_stability": 0.589,
+    "peak_monthly_yield_kwh": 1101.86,
+    "peak_yield_month": "April",
+    "lowest_monthly_yield_kwh": 649.29,
+    "lowest_yield_month": "November",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.38,
+    "forecast_interval_80": [
+      0.38,
+      0.686
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  },
+  {
+    "site_id": "26.2389_73.0243",
+    "site_name": "Jodhpur",
+    "state": "Rajasthan",
+    "sample_type": "state_anchor",
+    "lat": 26.2389,
+    "lon": 73.0243,
+    "suitability_score": 34.1,
+    "regime_label": "Indicative weather score",
+    "mean_daily_yield_kwh": 897.53,
+    "variability_cv": 0.224,
+    "seasonal_stability": 0.576,
+    "peak_monthly_yield_kwh": 1192.53,
+    "peak_yield_month": "May",
+    "lowest_monthly_yield_kwh": 686.67,
+    "lowest_yield_month": "December",
+    "top_k_freq": null,
+    "excluded": false,
+    "forecast_next_day_clearness": 0.579,
+    "forecast_interval_80": [
+      0.559,
+      0.688
+    ],
+    "data_sources": {
+      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "score_basis": "weather metrics compared with the existing reference grid",
+      "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+.monthly-yield{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;padding:11px;background:#f8f9fc;border:1px solid #e8edf5;border-radius:6px}
+.monthly-yield>div{display:flex;flex-direction:column;gap:5px}
+.monthly-yield>div>small{font:8px monospace;letter-spacing:.06em;color:#788498}
+.monthly-yield strong{font-size:12px}
+.monthly-yield strong small{font:9px monospace;font-weight:400;color:#667286}
+.monthly-yield p{grid-column:1/-1;margin:0;font-size:8px;line-height:1.45;color:#778294}
+.screening-links{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0}
+.screening-links a{padding:6px 8px;border:1px solid #dfe5ef;border-radius:4px;background:#f8f9fc;color:#395c92;text-decoration:none;font:8px monospace}
+.screening-links a:hover{background:#edf2ff}

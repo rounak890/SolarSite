@@ -1,0 +1,12 @@
+{
+  "weights": {
+    "mean_daily_yield_kwh": 0.6000000000000001,
+    "variability_cv": 0.20000000000000004,
+    "seasonal_stability": 0.20000000000000004
+  },
+  "higher_is_better": {
+    "mean_daily_yield_kwh": true,
+    "variability_cv": false,
+    "seasonal_stability": true
+  }
+}

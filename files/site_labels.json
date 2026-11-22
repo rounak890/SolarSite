@@ -1,0 +1,194 @@
+{
+  "17.6599_75.9064": {
+    "site_name": "Solapur",
+    "state": "Maharashtra"
+  },
+  "19.8762_75.3433": {
+    "site_name": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra"
+  },
+  "21.1458_79.0882": {
+    "site_name": "Nagpur",
+    "state": "Maharashtra"
+  },
+  "23.2599_77.4126": {
+    "site_name": "Bhopal",
+    "state": "Madhya Pradesh"
+  },
+  "22.7196_75.8577": {
+    "site_name": "Indore",
+    "state": "Madhya Pradesh"
+  },
+  "26.2183_78.1828": {
+    "site_name": "Gwalior",
+    "state": "Madhya Pradesh"
+  },
+  "16.8302_75.7100": {
+    "site_name": "Vijayapura",
+    "state": "Karnataka"
+  },
+  "15.1394_76.9214": {
+    "site_name": "Ballari",
+    "state": "Karnataka"
+  },
+  "14.2251_76.3980": {
+    "site_name": "Chitradurga",
+    "state": "Karnataka"
+  },
+  "17.3850_78.4867": {
+    "site_name": "Hyderabad",
+    "state": "Telangana"
+  },
+  "17.9689_79.5941": {
+    "site_name": "Warangal",
+    "state": "Telangana"
+  },
+  "18.6725_78.0941": {
+    "site_name": "Nizamabad",
+    "state": "Telangana"
+  },
+  "15.8281_78.0373": {
+    "site_name": "Kurnool",
+    "state": "Andhra Pradesh"
+  },
+  "14.4673_78.8242": {
+    "site_name": "Kadapa",
+    "state": "Andhra Pradesh"
+  },
+  "14.4426_79.9865": {
+    "site_name": "Nellore",
+    "state": "Andhra Pradesh"
+  },
+  "9.9252_78.1198": {
+    "site_name": "Madurai",
+    "state": "Tamil Nadu"
+  },
+  "11.0168_76.9558": {
+    "site_name": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  "8.7139_77.7567": {
+    "site_name": "Tirunelveli",
+    "state": "Tamil Nadu"
+  },
+  "27.0844_93.6053": {
+    "site_name": "Itanagar",
+    "state": "Arunachal Pradesh"
+  },
+  "26.1445_91.7362": {
+    "site_name": "Guwahati",
+    "state": "Assam"
+  },
+  "25.5941_85.1376": {
+    "site_name": "Patna",
+    "state": "Bihar"
+  },
+  "21.2514_81.6296": {
+    "site_name": "Raipur",
+    "state": "Chhattisgarh"
+  },
+  "15.4909_73.8278": {
+    "site_name": "Panaji",
+    "state": "Goa"
+  },
+  "23.0225_72.5714": {
+    "site_name": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  "29.1492_75.7217": {
+    "site_name": "Hisar",
+    "state": "Haryana"
+  },
+  "31.1048_77.1734": {
+    "site_name": "Shimla",
+    "state": "Himachal Pradesh"
+  },
+  "23.3441_85.3096": {
+    "site_name": "Ranchi",
+    "state": "Jharkhand"
+  },
+  "9.9312_76.2673": {
+    "site_name": "Kochi",
+    "state": "Kerala"
+  },
+  "24.8170_93.9368": {
+    "site_name": "Imphal",
+    "state": "Manipur"
+  },
+  "25.5788_91.8933": {
+    "site_name": "Shillong",
+    "state": "Meghalaya"
+  },
+  "23.7271_92.7176": {
+    "site_name": "Aizawl",
+    "state": "Mizoram"
+  },
+  "25.6751_94.1086": {
+    "site_name": "Kohima",
+    "state": "Nagaland"
+  },
+  "20.2961_85.8245": {
+    "site_name": "Bhubaneswar",
+    "state": "Odisha"
+  },
+  "30.9010_75.8573": {
+    "site_name": "Ludhiana",
+    "state": "Punjab"
+  },
+  "27.3389_88.6065": {
+    "site_name": "Gangtok",
+    "state": "Sikkim"
+  },
+  "23.8315_91.2868": {
+    "site_name": "Agartala",
+    "state": "Tripura"
+  },
+  "26.8467_80.9462": {
+    "site_name": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  "30.3165_78.0322": {
+    "site_name": "Dehradun",
+    "state": "Uttarakhand"
+  },
+  "22.5726_88.3639": {
+    "site_name": "Kolkata",
+    "state": "West Bengal"
+  },
+  "11.6234_92.7265": {
+    "site_name": "Port Blair",
+    "state": "Andaman and Nicobar Islands"
+  },
+  "30.7333_76.7794": {
+    "site_name": "Chandigarh",
+    "state": "Chandigarh"
+  },
+  "20.3974_72.8328": {
+    "site_name": "Daman",
+    "state": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  "28.6139_77.2090": {
+    "site_name": "New Delhi",
+    "state": "Delhi"
+  },
+  "34.0837_74.7973": {
+    "site_name": "Srinagar",
+    "state": "Jammu and Kashmir"
+  },
+  "34.1526_77.5771": {
+    "site_name": "Leh",
+    "state": "Ladakh"
+  },
+  "10.5667_72.6420": {
+    "site_name": "Kavaratti",
+    "state": "Lakshadweep"
+  },
+  "11.9416_79.8083": {
+    "site_name": "Puducherry",
+    "state": "Puducherry"
+  },
+  "26.2389_73.0243": {
+    "site_name": "Jodhpur",
+    "state": "Rajasthan"
+  }
+}
