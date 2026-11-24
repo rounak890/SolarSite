@@ -73,9 +73,15 @@ def build_grid(bounds, spacing_km):
 
 WESTERN_GRID = build_grid(REGION_BOUNDS, GRID_SPACING_KM)
 SITES = list(dict.fromkeys(WESTERN_GRID + [(lat, lon) for lat, lon, _, _ in ADDITIONAL_SITES]))
+try:
+    with open("site_labels.json") as f:
+        SITE_LABELS = json.load(f)
+except FileNotFoundError:
+    SITE_LABELS = {}
+for lat, lon, city, state in ADDITIONAL_SITES:
+    SITE_LABELS[f"{lat:.4f}_{lon:.4f}"] = {"site_name": city, "state": state, "sample_type": "state_anchor"}
 with open("site_labels.json", "w") as f:
-    json.dump({f"{lat:.4f}_{lon:.4f}": {"site_name": city, "state": state}
-               for lat, lon, city, state in ADDITIONAL_SITES}, f, indent=2)
+    json.dump(SITE_LABELS, f, indent=2, ensure_ascii=False)
 print(f"Built {len(SITES)} static points: {len(WESTERN_GRID)} western-grid points and {len(ADDITIONAL_SITES)} additional state anchors.")
 
 # ---------------------------------------------------------------------------

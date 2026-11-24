@@ -53,8 +53,29 @@ for _, site in ranking.iterrows():
         continue
     label_key = f"{lat:.4f}_{lon:.4f}"
     label = SITE_LABELS.get(label_key, {})
-    if label:
-        included_labels.add(label_key)
+    sample_type = label.get("sample_type", "state_anchor" if label else "grid_sample")
+    location = None
+    if not label.get("site_name"):
+        try:
+            location = pu.reverse_geocode(lat, lon)
+        except Exception:
+            location = {}
+        place_name = (location.get("area") or location.get("city") or "").strip()
+        state_name = (location.get("state") or "").strip()
+        label = {
+            "site_name": place_name or (f"Rural area, {state_name}" if state_name else "Rural site"),
+            "state": state_name or None,
+            "country": location.get("country"),
+            "country_code": location.get("country_code"),
+        }
+    included_labels.add(label_key)
+    label = {
+        **label,
+        "site_name": label.get("site_name") or (location.get("area") if location else None) or (location.get("city") if location else None) or (f"Rural area, {location.get('state')}" if location and location.get("state") else "Rural site"),
+        "state": label.get("state") or (location.get("state") if location else None),
+        "sample_type": sample_type,
+    }
+    SITE_LABELS[label_key] = label
     last_row = site_rows.iloc[[-1]]  # most recent day we have -> forecast "tomorrow" from here
     metrics = pu.compute_site_metrics(site_rows)
 
@@ -67,7 +88,10 @@ for _, site in ranking.iterrows():
         "site_id": f"{lat}_{lon}",
         "site_name": label.get("site_name"),
         "state": label.get("state"),
-        "sample_type": "state_anchor" if label else "grid_sample",
+        "country": label.get("country") or (location.get("country") if location else "India"),
+        "country_code": label.get("country_code") or (location.get("country_code") if location else "in"),
+        "location": location,
+        "sample_type": sample_type,
         "lat": float(lat),
         "lon": float(lon),
         "suitability_score": round(float(site["suitability_score"]), 1),
@@ -114,6 +138,8 @@ for label_key, label in SITE_LABELS.items():
         "site_id": f"{lat}_{lon}",
         "site_name": label["site_name"],
         "state": label["state"],
+        "country": label.get("country", "India"),
+        "country_code": label.get("country_code", "in"),
         "sample_type": "state_anchor",
         "lat": lat,
         "lon": lon,
@@ -139,6 +165,9 @@ for label_key, label in SITE_LABELS.items():
 
 with open("sites_precomputed.json", "w") as f:
     json.dump(records, f, indent=2)
+
+with open("site_labels.json", "w") as f:
+    json.dump(SITE_LABELS, f, indent=2, ensure_ascii=False)
 
 # The FastAPI app serves this generated file directly.
 import shutil

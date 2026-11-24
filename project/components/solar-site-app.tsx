@@ -169,6 +169,15 @@ export default function SolarSiteApp() {
     {(selectedId||liveOpen)&&<div className="detail-backdrop" onClick={()=>{setSelectedId(null);setLiveOpen(false)}}><aside className="detail-drawer" onClick={e=>e.stopPropagation()}><button className="drawer-close" aria-label="Close details" onClick={()=>{setSelectedId(null);setLiveOpen(false)}}><X size={19}/></button>{liveOpen?liveLoading?<div className="drawer-loading"><span className="spinner"/> Analyzing selected location…</div>:liveError?<div className="live-error-panel"><span className="status-pill"><i/> LIVE SITE LOOKUP</span><h2>Analysis temporarily unavailable</h2><p>Live lookup failed — NASA&apos;s data service may be slow right now, try again</p><button className="black-button" onClick={()=>livePoint&&void requestLiveSite(livePoint)}>Retry analysis</button></div>:liveSite?<SiteDetail site={liveSite} context={siteContext} contextLoading={contextLoading} contextError={contextError} showFullPageLink/>:null:detailLoading&&!detail?<div className="drawer-loading"><span className="spinner"/> Loading site details…</div>:detail?<SiteDetail site={detail} scoreOverride={Number(weightedSites.find(site=>site.site_id===selectedId)?.user_weighted_score)} context={siteContext} contextLoading={contextLoading} contextError={contextError} showFullPageLink/>:<div className="drawer-loading">Site details unavailable.</div>}</aside></div>}
   </div>
 }
-function displaySiteName(site: Site) { return site.site_name ? `${site.site_name}${site.state ? `, ${site.state}` : ""}` : `Solar site ${site.lat.toFixed(2)}°N · ${Math.abs(site.lon).toFixed(2)}°${site.lon < 0 ? "W" : "E"}` }
+function displaySiteName(site: Site) {
+  const name = site.site_name || site.location?.area || site.location?.city
+  const state = site.state || site.location?.state
+  const country = site.country || site.location?.country
+  if (name) {
+    const label = state && !name.toLowerCase().includes(state.toLowerCase()) ? `${name}, ${state}` : name
+    return country && country.toLowerCase() !== "india" && !label.toLowerCase().includes(country.toLowerCase()) ? `${label}, ${country}` : label
+  }
+  return state ? `Rural site, ${state}` : "Unnamed site"
+}
 function formatNumber(value?: number) { return value == null ? "—" : new Intl.NumberFormat("en-US", {maximumFractionDigits:1}).format(value) }
 function formatPercent(value?: number) { return value == null ? "—" : `${(value <= 1 ? value*100 : value).toFixed(1)}%` }

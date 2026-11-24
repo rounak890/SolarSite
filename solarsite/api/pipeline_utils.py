@@ -76,6 +76,8 @@ def reverse_geocode(lat, lon):
             "area": address.get("neighbourhood") or address.get("suburb") or address.get("quarter") or address.get("hamlet"),
             "city": address.get("city") or address.get("town") or address.get("village") or address.get("municipality") or address.get("county"),
             "state": address.get("state"),
+            "country": address.get("country"),
+            "country_code": address.get("country_code"),
         }
         _LOCATION_CACHE[key] = location
         return location
@@ -173,11 +175,14 @@ def fetch_site_context(lat, lon):
     try:
         place = reverse_geocode(lat, lon)
     except Exception:
-        place = {"state": None}
+        place = {"state": None, "country": None, "country_code": None}
     state = place.get("state")
+    country_code = place.get("country_code") or "in"
     policy = {
         "state": state,
-        "status": "research_checklist_only",
+        "country": place.get("country"),
+        "country_code": country_code,
+        "status": "research_checklist_only" if country_code == "in" else "outside_india",
         "checks": [
             "Confirm the current state renewable-energy policy and project eligibility.",
             "Verify land title, land-use conversion, lease rules, and local zoning.",

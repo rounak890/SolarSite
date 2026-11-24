@@ -1,8 +1,8 @@
 [
   {
     "site_id": "26.5_71.3",
-    "site_name": null,
-    "state": null,
+    "site_name": "Fatehgarh Tehsil",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 26.5,
     "lon": 71.3,
@@ -25,12 +25,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Fatehgarh Tehsil",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.5_70.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Hatar",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 26.5,
     "lon": 70.5,
@@ -53,12 +62,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Hatar",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.5_72.9",
-    "site_name": null,
-    "state": null,
+    "site_name": "Balarwa",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 26.5,
     "lon": 72.9,
@@ -81,12 +99,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Balarwa",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.5_72.1",
-    "site_name": null,
-    "state": null,
+    "site_name": "Paboosar",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 26.5,
     "lon": 72.1,
@@ -109,12 +136,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Paboosar",
+      "city": "Shergarh Tehsil",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.7_70.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Amin Ka Par",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 25.7,
     "lon": 70.5,
@@ -137,12 +173,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Amin Ka Par",
+      "city": "Gadraroad Tehsil",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.7_71.3",
-    "site_name": null,
-    "state": null,
+    "site_name": "Juneeaati",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 25.7,
     "lon": 71.3,
@@ -165,12 +210,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Juneeaati",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.7_72.9",
-    "site_name": null,
-    "state": null,
+    "site_name": "Pati",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 25.7,
     "lon": 72.9,
@@ -193,12 +247,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Pati",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.7_72.1",
-    "site_name": null,
-    "state": null,
+    "site_name": "Pachpadra Tehsil",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 25.7,
     "lon": 72.1,
@@ -221,7 +284,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Pachpadra Tehsil",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "9.9252_78.1198",
@@ -249,7 +321,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "14.2251_76.398",
@@ -277,12 +351,14 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.5_73.7",
-    "site_name": null,
-    "state": null,
+    "site_name": "Chaukri Kalan",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 26.5,
     "lon": 73.7,
@@ -305,7 +381,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Chaukri Kalan",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "14.4673_78.8242",
@@ -333,7 +418,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "15.1394_76.9214",
@@ -361,7 +448,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "16.8302_75.71",
@@ -389,7 +478,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "8.7139_77.7567",
@@ -417,7 +508,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "14.4426_79.9865",
@@ -445,12 +538,14 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.1_71.3",
-    "site_name": null,
-    "state": null,
+    "site_name": "Rural area",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 24.1,
     "lon": 71.3,
@@ -473,12 +568,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": null,
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.9_71.3",
-    "site_name": null,
-    "state": null,
+    "site_name": "Khavala",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 24.9,
     "lon": 71.3,
@@ -501,12 +605,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Khavala",
+      "city": "Sedwa Tehsil",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.7_73.7",
-    "site_name": null,
-    "state": null,
+    "site_name": "Chirpatiya",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 25.7,
     "lon": 73.7,
@@ -529,12 +642,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Chirpatiya",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.1_70.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Rural area",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 24.1,
     "lon": 70.5,
@@ -557,12 +679,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": null,
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.9_70.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Nagar Parkar",
+    "state": "Sindh",
     "sample_type": "grid_sample",
     "lat": 24.9,
     "lon": 70.5,
@@ -585,12 +716,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Taluka Nagarparkar",
+      "city": "Nagar Parkar",
+      "state": "Sindh",
+      "country": "Pakistan",
+      "country_code": "pk"
+    },
+    "country": "Pakistan",
+    "country_code": "pk"
   },
   {
     "site_id": "26.5_74.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Gowaliya",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 26.5,
     "lon": 74.5,
@@ -613,7 +753,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Gowaliya",
+      "city": "Goyala",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "17.6599_75.9064",
@@ -641,12 +790,14 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.3_70.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Samakhiali",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 23.3,
     "lon": 70.5,
@@ -669,12 +820,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Samakhiali",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.3_71.3",
-    "site_name": null,
-    "state": null,
+    "site_name": "Rural area",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 23.3,
     "lon": 71.3,
@@ -697,12 +857,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": null,
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.7_74.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Ramaji ka Khera",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 25.7,
     "lon": 74.5,
@@ -725,7 +894,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Ramaji ka Khera",
+      "city": "Barla",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "11.0168_76.9558",
@@ -753,7 +931,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "15.8281_78.0373",
@@ -781,7 +961,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "17.385_78.4867",
@@ -809,12 +991,14 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.1_72.9",
-    "site_name": null,
-    "state": null,
+    "site_name": "Danta Taluka",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 24.1,
     "lon": 72.9,
@@ -837,12 +1021,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Danta Taluka",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.9_72.9",
-    "site_name": null,
-    "state": null,
+    "site_name": "Bakla",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 24.9,
     "lon": 72.9,
@@ -865,12 +1058,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Bakla",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.1_72.1",
-    "site_name": null,
-    "state": null,
+    "site_name": "Nava",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 24.1,
     "lon": 72.1,
@@ -893,7 +1095,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Nava",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "19.8762_75.3433",
@@ -921,12 +1132,14 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.9_72.1",
-    "site_name": null,
-    "state": null,
+    "site_name": "Karda",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 24.9,
     "lon": 72.1,
@@ -949,7 +1162,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Karda",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "18.6725_78.0941",
@@ -977,12 +1199,14 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.9_73.7",
-    "site_name": null,
-    "state": null,
+    "site_name": "Dabun",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 24.9,
     "lon": 73.7,
@@ -1005,12 +1229,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Dabun",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.1_73.7",
-    "site_name": null,
-    "state": null,
+    "site_name": "Kalawat",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 24.1,
     "lon": 73.7,
@@ -1033,12 +1266,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Kalawat",
+      "city": "Rishabdeo",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.5_70.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Dhrol Taluka",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 22.5,
     "lon": 70.5,
@@ -1061,12 +1303,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Dhrol Taluka",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.3_72.9",
-    "site_name": null,
-    "state": null,
+    "site_name": "patnakuva",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 23.3,
     "lon": 72.9,
@@ -1089,12 +1340,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "patnakuva",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.5_71.3",
-    "site_name": null,
-    "state": null,
+    "site_name": "Sayla Taluka",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 22.5,
     "lon": 71.3,
@@ -1117,12 +1377,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Sayla Taluka",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.3_72.1",
-    "site_name": null,
-    "state": null,
+    "site_name": "Vasna",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 23.3,
     "lon": 72.1,
@@ -1145,12 +1414,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Vasna",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.5_72.9",
-    "site_name": null,
-    "state": null,
+    "site_name": "Meghva",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 22.5,
     "lon": 72.9,
@@ -1173,12 +1451,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Meghva",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.5_72.1",
-    "site_name": null,
-    "state": null,
+    "site_name": "Limbdi Taluka",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 22.5,
     "lon": 72.1,
@@ -1201,12 +1488,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Limbdi Taluka",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.9_74.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Tumbariya",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 24.9,
     "lon": 74.5,
@@ -1229,12 +1525,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Tumbariya",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.1_74.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Bhandla",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 24.1,
     "lon": 74.5,
@@ -1257,12 +1562,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Bhandla",
+      "city": "Jawaharnagar",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.5_73.7",
-    "site_name": null,
-    "state": null,
+    "site_name": "Ghoghamba Taluka",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 22.5,
     "lon": 73.7,
@@ -1285,7 +1599,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Ghoghamba Taluka",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "17.9689_79.5941",
@@ -1313,12 +1636,14 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.3_73.7",
-    "site_name": null,
-    "state": null,
+    "site_name": "Khanpur Taluka",
+    "state": "Gujarat",
     "sample_type": "grid_sample",
     "lat": 23.3,
     "lon": 73.7,
@@ -1341,12 +1666,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Khanpur Taluka",
+      "state": "Gujarat",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.3_74.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Talaipara",
+    "state": "Rajasthan",
     "sample_type": "grid_sample",
     "lat": 23.3,
     "lon": 74.5,
@@ -1369,12 +1703,21 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": "Talaipara",
+      "city": "Kotra",
+      "state": "Rajasthan",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.5_74.5",
-    "site_name": null,
-    "state": null,
+    "site_name": "Jobat Tehsil",
+    "state": "Madhya Pradesh",
     "sample_type": "grid_sample",
     "lat": 22.5,
     "lon": 74.5,
@@ -1397,7 +1740,16 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "location": {
+      "area": null,
+      "city": "Jobat Tehsil",
+      "state": "Madhya Pradesh",
+      "country": "India",
+      "country_code": "in"
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.7196_75.8577",
@@ -1425,7 +1777,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.2183_78.1828",
@@ -1453,7 +1807,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "21.1458_79.0882",
@@ -1481,7 +1837,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.2599_77.4126",
@@ -1509,7 +1867,9 @@
     "data_sources": {
       "weather_irradiance": "real (NASA POWER)",
       "context_screening": "on-demand SRTM elevation and OpenStreetMap grid/protected-feature lookup"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "27.0844_93.6053",
@@ -1535,10 +1895,12 @@
       0.69
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.1445_91.7362",
@@ -1564,10 +1926,12 @@
       0.679
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.5941_85.1376",
@@ -1593,10 +1957,12 @@
       0.671
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "21.2514_81.6296",
@@ -1622,10 +1988,12 @@
       0.677
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "15.4909_73.8278",
@@ -1651,10 +2019,12 @@
       0.673
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.0225_72.5714",
@@ -1680,10 +2050,12 @@
       0.69
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "29.1492_75.7217",
@@ -1709,10 +2081,12 @@
       0.669
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "31.1048_77.1734",
@@ -1738,10 +2112,12 @@
       0.678
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.3441_85.3096",
@@ -1767,10 +2143,12 @@
       0.677
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "9.9312_76.2673",
@@ -1796,10 +2174,12 @@
       0.661
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "24.817_93.9368",
@@ -1825,10 +2205,12 @@
       0.667
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.5788_91.8933",
@@ -1854,10 +2236,12 @@
       0.655
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.7271_92.7176",
@@ -1883,10 +2267,12 @@
       0.662
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "25.6751_94.1086",
@@ -1912,10 +2298,12 @@
       0.662
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "20.2961_85.8245",
@@ -1941,10 +2329,12 @@
       0.661
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "30.901_75.8573",
@@ -1970,10 +2360,12 @@
       0.68
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "27.3389_88.6065",
@@ -1999,10 +2391,12 @@
       0.668
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "23.8315_91.2868",
@@ -2028,10 +2422,12 @@
       0.671
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.8467_80.9462",
@@ -2057,10 +2453,12 @@
       0.675
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "30.3165_78.0322",
@@ -2086,10 +2484,12 @@
       0.669
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "22.5726_88.3639",
@@ -2115,10 +2515,12 @@
       0.653
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "11.6234_92.7265",
@@ -2144,10 +2546,12 @@
       0.632
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "30.7333_76.7794",
@@ -2173,10 +2577,12 @@
       0.679
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "20.3974_72.8328",
@@ -2202,10 +2608,12 @@
       0.69
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "28.6139_77.209",
@@ -2231,10 +2639,12 @@
       0.673
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "34.0837_74.7973",
@@ -2260,10 +2670,12 @@
       0.665
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "34.1526_77.5771",
@@ -2289,10 +2701,12 @@
       0.694
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "10.5667_72.642",
@@ -2318,10 +2732,12 @@
       0.674
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "11.9416_79.8083",
@@ -2347,10 +2763,12 @@
       0.686
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   },
   {
     "site_id": "26.2389_73.0243",
@@ -2376,9 +2794,11 @@
       0.688
     ],
     "data_sources": {
-      "weather_irradiance": "NASA POWER daily data \u00b7 400-day city-anchor sample",
+      "weather_irradiance": "NASA POWER daily data · 400-day city-anchor sample",
       "score_basis": "weather metrics compared with the existing reference grid",
       "limitation": "City anchor for regional comparison; not representative of a parcel or entire state"
-    }
+    },
+    "country": "India",
+    "country_code": "in"
   }
 ]

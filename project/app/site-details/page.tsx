@@ -42,6 +42,6 @@ export default function SiteDetailsPage() {
   }, [])
 
   return <div className="app-shell"><header className="topbar"><Link className="brand" href="/"><span className="brand-mark"><Sun size={19}/></span><span><strong>SolarSite</strong><small>Site Evaluation Platform</small></span></Link><nav><Link href="/">Map</Link><Link href="/rankings">Rankings</Link><Link href="/about">About</Link></nav></header>
-    <main className="standalone-detail-page"><Link className="back-to-map" href="/"><ArrowLeft size={15}/> Back to map</Link>{loading ? <div className="drawer-loading"><span className="spinner"/> Loading complete site details…</div> : error || !site ? <section className="live-error-panel"><h2>Could not load this site</h2><p>Return to the map and open the site details again.</p></section> : <SiteDetail site={site} scoreOverride={scoreOverride} context={context} contextLoading={contextLoading} contextError={contextError}/>}</main>
+    <main className="standalone-detail-page"><Link className="back-to-map" href="/"><ArrowLeft size={15}/> Back to map</Link>{loading ? <div className="drawer-loading"><span className="spinner"/> Loading complete site details…</div> : error || !site ? <section className="live-error-panel"><h2>Could not load this site</h2><p>Return to the map and open the site details again.</p></section> : <SiteDetail site={site} scoreOverride={scoreOverride} context={context} contextLoading={contextLoading} contextError={contextError} tabbed/>}</main>
   </div>
 }

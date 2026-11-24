@@ -103,6 +103,12 @@ def policy_search(
     api_key = os.getenv("BRAVE_SEARCH_API_KEY")
     if not api_key:
         raise HTTPException(status_code=503, detail="Policy search is not configured. Set BRAVE_SEARCH_API_KEY on the API server.")
+    try:
+        location = pu.reverse_geocode(lat, lon)
+    except Exception:
+        location = {"country_code": "in"}
+    if location.get("country_code") not in (None, "in"):
+        raise HTTPException(status_code=400, detail=f"State policy search is limited to India; this point resolves to {location.get('country') or 'another country'}.")
     query = f'"{state}" solar policy project land conversion transmission site:gov.in OR site:nic.in'
     try:
         response = pu.requests.get(

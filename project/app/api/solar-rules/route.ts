@@ -87,9 +87,9 @@ export async function GET(request: Request) {
     },
   ]
 
-  const protected: ProtectedAreaOverlap[] = []
+  const protectedAreas: ProtectedAreaOverlap[] = []
   if (state === "Kerala") {
-    protected.push({
+    protectedAreas.push({
       type: "wetland",
       description: "Nearest wetland within 2 km; environmental clearance required.",
       distance_km: 1.8,
@@ -106,7 +106,7 @@ export async function GET(request: Request) {
 
   const flagged: string[] = []
   if (zoning.some(z => z.severity === "high")) flagged.push("High-severity zoning restriction – consult municipal planner.")
-  if (protected.some(p => p.status === "within")) flagged.push("Protected area overlap – further study required.")
+  if (protectedAreas.some(p => p.status === "within")) flagged.push("Protected area overlap – further study required.")
 
   const sourceNotes = "Rules synthesized from Maharashtra State Solar Policy (2023) and typical Indian municipal regulations. Verify with local authorities."
 
@@ -115,7 +115,7 @@ export async function GET(request: Request) {
     lon,
     zoning_restrictions: zoning,
     permit_requirements: permits,
-    protected_area_overlaps: protected,
+    protected_area_overlaps: protectedAreas,
     grid_connection: grid,
     flagged_restrictions: flagged,
     source_notes: sourceNotes,

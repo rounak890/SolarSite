@@ -2,7 +2,9 @@ export type Site = {
   site_id: string
   site_name?: string | null
   state?: string | null
-  location?: { area?: string | null; city?: string | null; state?: string | null }
+  country?: string | null
+  country_code?: string | null
+  location?: { area?: string | null; city?: string | null; state?: string | null; country?: string | null; country_code?: string | null }
   sample_type?: "state_anchor" | "grid_sample" | string
   lat: number
   lon: number
@@ -40,7 +42,7 @@ export type SiteContext = {
     note: string
     nearby_features?: { name?: string | null; distance_km: number }[]
   }
-  policy_research: { state?: string | null; status: string; checks: string[]; search_url: string; note: string }
+  policy_research: { state?: string | null; country?: string | null; country_code?: string | null; status: string; checks: string[]; search_url: string; note: string }
 }
 
 export type PolicySearchResult = { title: string; url: string; domain: string; description: string; published?: string | null }
@@ -63,7 +65,8 @@ export async function fetchSite(siteId: string): Promise<Site> {
 }
 
 export async function fetchSiteContext(lat: number, lon: number): Promise<SiteContext> {
-  const response = await fetch(`${API_URL}/site-context?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}`, { cache: "no-store" })
+  const url = `/api/site-context?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}`
+  const response = await fetch(url, { cache: "no-store" })
   if (!response.ok) throw new Error(`Site context request failed: ${response.status}`)
   return await response.json() as SiteContext
 }
@@ -83,20 +86,6 @@ export async function fetchPolicySearch(state: string, lat: number, lon: number)
  * (net‑metering rules, state solar policies, environmental clearances, etc.). */
 export async function fetchSolarPolicySearch(state: string, lat: number, lon: number): Promise<PolicySearchResponse> {
   const searchQuery = `solar installation regulations ${state || ""} ${lat} ${lon}`.trim()
-  const params = new URLSearchParams({ state, lat: String(lat), lon: String(lon), query: searchQuery })
-  const response = await fetch(`${API_URL}/policy-search?${params}`, { cache: "no-store" })
-  if (!response.ok) {
-    const payload = await response.json().catch(() => ({}))
-    throw new Error(payload.detail || `Solar policy search failed: ${response.status}`)
-  }
-  return await response.json() as PolicySearchResponse
-}
-
-/** Enhanced policy search that specifically looks for solar‑related regulations. */
-export async function fetchSolarPolicySearch(state: string, lat: number, lon: number): Promise<PolicySearchResponse> {
-  // Build search query that includes solar keywords; the backend web‑search provider
-  // may already filter by domain, but we prepend "solar" to focus results.
-  const searchQuery = `solar installation regulations ${state} ${lat} ${lon}`
   const params = new URLSearchParams({ state, lat: String(lat), lon: String(lon), query: searchQuery })
   const response = await fetch(`${API_URL}/policy-search?${params}`, { cache: "no-store" })
   if (!response.ok) {

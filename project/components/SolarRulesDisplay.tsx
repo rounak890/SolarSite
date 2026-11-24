@@ -1,117 +1,136 @@
 "use client"
 
-import { useEffect, useState } from "react"
-import { SolarRuleAnalysis } from "@/lib/sites"
+import { useCallback, useEffect, useState } from "react"
 
-interface SolarRulesDisplayProps {
-  lat: number
-  lon: number
-}
-
-export function SolarRulesDisplay({ lat, lon }: SolarRulesDisplayProps) {
+/** Fetches the solar‑rules analysis from the API and renders it in collapsible sections. */
+export function SolarRulesDisplay({ lat, lon }: { lat: number; lon: number }) {
   const [analysis, setAnalysis] = useState<SolarRuleAnalysis | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  useEffect(() => {
-    const fetchAnalysis = async () => {
-      try {
-        const res = await fetch(`/api/solar-rules?lat=${lat}&lon=${lon}`)
-        if (!res.ok) throw new Error(`HTTP ${res.status}`)
-        const data = await res.json() as SolarRuleAnalysis
-        setAnalysis(data)
-      } catch (e: any) {
-        setError(e instanceof Error ? e.message : "Failed to load solar rules.")
-      } finally {
-        setLoading(false)
-      }
+  const fetchAnalysis = useCallback(async () => {
+    setLoading(true)
+    setError(null)
+    try {
+      const res = await fetch(`/api/solar-rules?lat=${lat}&lon=${lon}`)
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      const data = (await res.json()) as SolarRuleAnalysis
+      setAnalysis(data)
+    } catch (e: any) {
+      setError(e.message || "Failed to load solar rules")
+    } finally {
+      setLoading(false)
     }
-
-    fetchAnalysis()
   }, [lat, lon])
 
-  if (loading) {
-    return <p>Loading solar rules…</p>
-  }
+  useEffect(() => {
+    fetchAnalysis()
+  }, [fetchAnalysis])
 
-  if (error) {
-    return <p className="error">Error: {error}</p>
-  }
-
-  if (!analysis) {
-    return <p>No solar rules data available.</p>
-  }
-
-  const { zoning_restrictions, permit_requirements, protected_area_overlaps, grid_connection, flagged_restrictions, source_notes } = analysis
+  if (loading) return <p className="context-note">Analyzing solar rules…</p>
+  if (error) return <p className="context-note policy-search-error">{error}</p>
+  if (!analysis) return null
 
   return (
-    <section className="solar-rules-panel">
-      <h2>Solar Installation Rules</h2>
-
-      {/* Zoning / Land Use Restrictions */}
-      <div className="subsection">
-        <h3>Zoning / Land Use Restrictions</h3>
-        {zoning_restrictions.map((z, i) => (
-          <div key={i} className={`restriction severity-${z.severity}`}>
-            <strong>{z.type}</strong>: {z.description}
-            {z.affected_area && <span> · {z.affected_area}</span>}
-          </div>
-        ))}
-        {zoning_restrictions.length === 0 && <p>None identified.</p>}
+    <section className="context-section">
+      <div className="detail-section-title">
+        <span>SOLAR RULES & REGULATIONS</span>
+        <span className="status-pill tier">AI‑AGENT INSIGHT</span>
       </div>
 
-      {/* Permit Requirements */}
-      <div className="subsection">
-        <h3>Permit Requirements</h3>
-        {permit_requirements.map((p, i) => (
-          <div key={i}>
-            <strong>{p.type}</strong>: {p.description} <span>{p.status}</span>
+      {/* ZONING */}
+      <details>
+        <summary>Zoning / Land‑Use Restrictions</summary>
+        <p>{analysis.zoning.note}{" "}
+        <span style={{ color: analysis.zoning.severity === "high" ? "#b00" : analysis.zoning.severity === "medium" ? "#b50" : "#0a0" }}>
+          Severity: {analysis.zoning.severity}</span></p>
+        {analysis.zoning.zoning_restrictions?.map((r, i) => (
+          <div key={i} style={{ marginTop: "0.5rem" }}>
+            <strong>{r.type}:</strong> {r.description}
           </div>
         ))}
-        {permit_requirements.length === 0 && <p>None identified.</p>}
-      </div>
+      </details>
 
-      {/* Protected Area Overlaps */}
-      <div className="subsection">
-        <h3>Protected Area Overlaps</h3>
-        {protected_area_overlaps.map((p, i) => (
-          <div key={i} className={p.status === "within" ? "overlap-within" : "overlap-buffer"}>
-            <strong>{p.type}</strong>: {p.description}
-            <span> · {p.distance_km} km · {p.status}</span>
-          </div>
-        ))}
-        {protected_area_overlaps.length === 0 && <p>No protected areas overlapping.</p>}
-      </div>
+      {/* PERMITS */}
+      <details>
+        <summary>Permit Requirements</summary>
+        <div style={{ marginTop: "0.5rem" }}>
+          <p><strong>Building permit:</strong> {analysis.permits.building.required ? "Required" : "Not required"} – {analysis.permits.building.note}</p>
+          <p><strong>Electrical permit:</strong> {analysis.permits.electrical.required ? "Required" : "Not required"} – {analysis.permits.electrical.note}</p>
+          <p><strong>Interconnection permit:</strong> {analysis.permits.interconnection.required ? "Required" : "Not required"} – {analysis.permits.interconnection.note}</p>
+          <p><strong>Environmental permit:</strong> {analysis.permits.environmental.required ? "Required" : "Not required"} – {analysis.permits.environmental.note}</p>
+        </div>
+      </details>
 
-      {/* Grid Connection Feasibility */}
-      <div className="subsection">
-        <h3>Grid Connection Feasibility</h3>
+      {/* PROTECTED AREAS */}
+      <details>
+        <summary>Protected‑Area Overlaps</summary>
+        {analysis.protectedAreas.length > 0 ? (
+          analysis.protectedAreas.map((pa, i) => (
+            <div key={i} style={{ marginTop: "0.5rem" }}>
+              <strong>{pa.name} ({pa.type}):</strong> {pa.description} – {pa.distance_km} km ({pa.status})
+            </div>
+          ))
+        ) : (
+          <p>No protected areas detected within 10 km.</p>
+        )}
+      </details>
+
+      {/* GRID CONNECTION */}
+      <details>
+        <summary>Grid‑Connection Feasibility</summary>
         <p>
-          <strong>Status:</strong> {grid_connection.status}
-          {grid_connection.notes && <br /> {grid_connection.notes}}
+          <strong>Nearest substation:</strong> {analysis.gridConnection.nearestSubstationKm} km{" "}
         </p>
-        <p>
-          <strong>Nearest substation:</strong> {grid_connection.nearest_substation_km} km
-          {grid_connection.capacity_mw !== null && <br /> " capacity: " + grid_connection.capacity_mw + " MW"}
-        </p>
-      </div>
+        <p><strong>Feasible:</strong> {analysis.gridConnection.feasible ? "Yes" : "No"} – {analysis.gridConnection.note}</p>
+        {analysis.gridConnection.capacityMw && (
+          <p><strong>Noted capacity:</strong> {analysis.gridConnection.capacityMw} MW</p>
+        )}
+      </details>
 
-      {/* Flagged Restrictions */}
-      {flagged_restrictions.length > 0 && (
-        <div className="subsection flagged">
-          <h3>Flagged Restrictions</h3>
-          <ul>
-            {flagged_restrictions.map((f, i) => (
-              <li key={i}>{f}</li>
-            ))}
+      {/* FLAGGED RESTRICTIONS */}
+      {analysis.flagged.length > 0 && (
+        <details>
+          <summary>Flagged Restrictions (<span style={{ color: "red" }}>{analysis.flagged.length}</span>)</summary>
+          <ul style={{ marginTop: "0.5rem", paddingLeft: "1.2rem" }}>
+            {analysis.flagged.map((f, i) => (
+              <li key={i} style={{ color: f.severity === "high" ? "#b00" : f.severity === "medium" ? "#b50" : "#0a0" }}>
+                [{f.severity.toUpperCase()}] {f.description}
+              </li>
+            ))
           </ul>
         </div>
       )}
 
-      {/* Source Notes */}
-      <p className="source-note">
-        {source_notes}
+      {/* SOURCE NOTE */}
+      <p className="context-attribution" style={{ fontSize: "0.85rem", marginTop: "0.8rem", color: "#555" }}>
+        {analysis.sourceNote}
       </p>
     </section>
   )
+}
+
+/** Type – matches the structure returned by /api/solar-rules */
+type SolarRuleAnalysis = {
+  zoning: {
+    status: "clear" | "restricted" | "prohibited"
+    note: string
+    severity: "low" | "medium" | "high"
+    zoning_restrictions?: { type: string; description: string }[]
+  }
+  permits: {
+    building: { required: boolean; note: string }
+    electrical: { required: boolean; note: string }
+    interconnection: { required: boolean; note: string }
+    environmental: { required: boolean; note: string }
+  }
+  protectedAreas: { name: string; type: string; distance_km: number; status: "inside" | "nearby" }[]
+  gridConnection: {
+    nearestSubstationKm: number
+    capacityMw?: number
+    feasible: boolean
+    note: string
+  }
+  flagged: { category: string; description: string; severity: "low" | "medium" | "high" }[]
+  sourceNote: string
 }
